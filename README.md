@@ -26,7 +26,7 @@ Summary: *Using the imbalanced-learn and scikit-learn libraries, three machine l
 
 The script can be access via the link below:
 
-[Link to the Credit Risk Resampling.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+[Link to the Credit Risk Resampling.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/master/credit_risk_resampling.ipynb)
 
 **1. Naive Random Oversampling**
 
@@ -77,7 +77,7 @@ Summary: *Using the imbalanced-learn and scikit-learn libraries, a combinatorial
 
 The script can be access via the link below:
 
-[Link to the Credit Risk Resampling.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+[Link to the Credit Risk Resampling.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/master/credit_risk_resampling.ipynb)
 
 **1. Combination (Over and Under) Sampling**
 
@@ -99,7 +99,7 @@ Summary: *Using the imblearn.ensemble library, two different ensemble classifier
 
 The script can be access via the link below:
 
-[Link to the Credit Risk Ensemble.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
+[Link to the Credit Risk Ensemble.ipynb](https://github.com/jsaltmd/Credit_Risk_Analysis/blob/master/credit_risk_ensemble.ipynb)
 
 **1. Balanced Random Forest Classifier**
 
