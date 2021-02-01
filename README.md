@@ -59,17 +59,17 @@ Based on the results, every single observation on the testing set was predicted 
 
 **3. Undersampling**
 
-Based on the results, every single observation on the testing set was predicted at 65% by the model. The recall (sensitivity) values for prediction of higher risk loan is higher than lower risk loan. However, the precision for predicting higher risk loan is much lower than it is predicting for a lower risk loan.
+Based on the results, every single observation on the testing set was predicted at 54% by the model. The recall (sensitivity) values for prediction of higher risk loan is higher than lower risk loan. However, the precision for predicting higher risk loan is much lower than it is predicting for a lower risk loan.
 
-- ***Balanced accuracy score:*** 0.65
+- ***Balanced accuracy score:*** 0.54
 
 - ***High risk precision:*** 0.01
 
-- ***High risk recall:*** 0.74
+- ***High risk recall:*** 0.67
 
 - ***Low risk precision:*** 1.00
 
-- ***Low risk recall:*** 0.56
+- ***Low risk recall:*** 0.42
 
 **Deliverable 2:** Use the SMOTEENN algorithm to Predict Credit Risk:
 
@@ -136,4 +136,10 @@ Below are the results summary of all the machine learning analysis models:
 
 ![](./Pictures/pic2.png)
 
-Overall, the recall (sensitivity) of predicting higher risk loan is higher compared to detecting lower risk loan for Naive Random Oversampling, Undersampling, and Combination (Over and Under) Sampling. Smote Oversampling and Balanced Random Forest Classifier have higher prediction for lower risk loans and the Easy Ensemble AdaBoost Classifier model have comparable values for both higher and lower. The precision for predicting higher risk loan is much lower across all machine learning analysis compared to predicting lower risk loan. Out of the six models, the Easy Ensemble AdaBoost Classifier has the highest score of 0.93, followed by the Balanced Random Forest Classifier with 0.79. The rest of the models have a score of 0.63 - 0.65. Out of the six models, the Easy Ensemble AdaBoost Classifier model is ideal to use. However, normally you want both precision and recall to be balanced but even with better results with this model, the precision to predict high risk loan is still very low. It means that may not still be a useful algorithm and it is also reflected by the F1 scores. I would recommend to further clean (remove unwanted data by trial and error) and reassess the data.
+- Overall, the recall (sensitivity) of predicting higher risk loan is higher compared to detecting lower risk loan for Naive Random Oversampling, Undersampling, and Combination (Over and Under) Sampling. The recall for both Smote Oversampling and Balanced Random Forest Classifier have higher prediction for lower risk loans. The Easy Ensemble AdaBoost Classifier model have comparable values for both higher and lower. 
+
+- The precision for predicting higher risk loan is much lower across all machine learning analysis models compared to predicting lower risk loan. 
+
+- Out of the six models, the Easy Ensemble AdaBoost Classifier has the highest score of 0.93, followed by the Balanced Random Forest Classifier with 0.79. The rest of the models have a score of 0.63 - 0.65. 
+
+- Out of the six models, the Easy Ensemble AdaBoost Classifier is ideal to use. With this data analysis, it is better to have higher sentivity in order to detect loans that have higher risks because it will produced true positives. In the ideal situation, both precision and recall should be balanced. However, in this model, the precision results is low to predict high risk loans. It means that it may not still be a useful algorithm and it is also reflected by the F1 scores. I would recommend to further clean (remove unwanted data by trial and error) and reassess.
