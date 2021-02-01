@@ -132,7 +132,7 @@ Based on the results, every single observation on the testing set was predicted 
 
 ### Summary:
 
-Below is a results summary of all the machine learning analysis models: 
+Below are the results summary of all the machine learning analysis models: 
 
 ![](./Pictures/pic2.png)
 
